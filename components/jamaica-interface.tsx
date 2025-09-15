@@ -71,11 +71,13 @@ export default function JamaicaInterface({ language }: JamaicaInterfaceProps) {
             <div className="space-y-6">
               <Card className="p-6 bg-white border-red-100">
                 <h3 className="text-xl font-semibold text-red-800 mb-3">{t.jamaica.historia.curiosFacts}</h3>
-                <ul className="space-y-2 text-red-700">
+                <ul className="space-y-3 text-red-700">
                   {t.jamaica.historia.facts.map((fact, index) => (
                     <li key={index} className="flex items-start">
-                      <span className="text-red-500 mr-2">•</span>
-                      {fact}
+                      <div className="w-6 h-6 bg-purple-500 rounded-full flex items-center justify-center text-white text-sm font-bold mr-3 mt-0.5 flex-shrink-0">
+                        {index + 1}
+                      </div>
+                      <span className="flex-1">{fact}</span>
                     </li>
                   ))}
                 </ul>
