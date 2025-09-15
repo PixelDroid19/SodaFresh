@@ -71,11 +71,13 @@ export default function LimonadaInterface({ language }: LimonadaInterfaceProps) 
             <div className="space-y-6">
               <Card className="p-6 bg-white border-yellow-100">
                 <h3 className="text-xl font-semibold text-yellow-800 mb-3">{t.limonada.historia.curiosFacts}</h3>
-                <ul className="space-y-2 text-yellow-700">
+                <ul className="space-y-3 text-yellow-700">
                   {t.limonada.historia.facts.map((fact, index) => (
                     <li key={index} className="flex items-start">
-                      <span className="text-yellow-500 mr-2">•</span>
-                      {fact}
+                      <div className="w-6 h-6 bg-yellow-500 rounded-full flex items-center justify-center text-white text-xs font-bold mr-3 mt-0.5 flex-shrink-0">
+                        {index + 1}
+                      </div>
+                      <span className="flex-1">{fact}</span>
                     </li>
                   ))}
                 </ul>

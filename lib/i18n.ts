@@ -115,21 +115,19 @@ export const translations = {
       heroDescription:
         "La explosión de frescura que define el verano mexicano. Una bebida revitalizante cargada de vitamina C y energía natural.",
       historia: {
-        title: "El Cítrico del Nuevo Mundo",
+        title: "Historia",
         content: [
-          "El limón llegó a México con los conquistadores españoles en el siglo XVI, pero fue en tierras mexicanas donde encontró su expresión más refrescante en forma de limonada.",
-          "Los vendedores ambulantes de aguas frescas perfeccionaron el arte de la limonada mexicana, creando la fórmula perfecta que equilibra acidez, dulzura y frescura.",
-          "Hoy es la bebida por excelencia del verano mexicano, presente en cada esquina, mercado y hogar, ofreciendo alivio inmediato al calor tropical.",
+          "Déjate refrescar por la esencia pura de Guatemala con Soda Fresh® Limonada. Cada gota es un homenaje al sabor fresco y natural del limón, un ingrediente que evoca la tradición de las aguas frescas preparadas en casa. Es un sabor simple, pero lleno de historia, que trae a la mesa la calidez del sol guatemalteco.",
+          "El diseño del empaque es un tributo a la riqueza cultural de nuestro país. Los patrones geométricos en el fondo están inspirados en los huipiles y las figuras que se crean en el telar de cintura, una técnica artesanal que ha pasado de generación en generación.",
         ],
         curiosFacts: "Datos Curiosos",
         facts: [
-          "México produce más de 2 millones de toneladas de limón al año",
-          "El limón mexicano es más pequeño pero más aromático",
-          "Se consume más limonada en México que en cualquier otro país",
+          "La limonada es una de las 'aguas frescas' más populares en Guatemala y en toda la región. Se prepara de manera artesanal y a menudo se le añaden otros ingredientes como jengibre, hierbabuena o incluso chía, para darle un toque extra de sabor y propiedades.",
+          "El limón es conocido por ser una excelente fuente de vitamina C, un antioxidante natural que ayuda a fortalecer el sistema inmunológico.",
         ],
-        connection: "Conexión con Otros Sabores",
+        connection: "Conexiones",
         connectionText:
-          "La limonada potencia el sabor del tamarindo y equilibra la intensidad de la jamaica, creando combinaciones refrescantes únicas.",
+          "Infusionar la limonada con hierbabuena, albahaca o jengibre le da un giro refrescante y aromático. El jengibre, en particular, le añade un toque picante que contrasta de manera deliciosa con la acidez del limón.",
       },
       beneficios: {
         benefits: [
