@@ -35,8 +35,8 @@ export default function TamarindoInterface({ language }: TamarindoInterfaceProps
         <div className="max-w-7xl mx-auto px-6 sm:px-8">
           <nav className="flex space-x-8" role="tablist">
             {[
-              { id: "historia", label: t.common.sections.historia, icon: "📚" },
-              { id: "beneficios", label: t.common.sections.beneficios, icon: "💚" },
+              { id: "historia", label: t.common.sections.historia },
+              { id: "beneficios", label: t.common.sections.beneficios },
             ].map((section) => (
               <button
                 key={section.id}
@@ -49,7 +49,6 @@ export default function TamarindoInterface({ language }: TamarindoInterfaceProps
                     : "border-transparent text-slate-600 hover:text-orange-600 hover:border-orange-200"
                 }`}
               >
-                <span className="text-lg">{section.icon}</span>
                 <span>{section.label}</span>
               </button>
             ))}
@@ -61,10 +60,7 @@ export default function TamarindoInterface({ language }: TamarindoInterfaceProps
         {activeSection === "historia" && (
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-16">
             <Card className="p-8 sm:p-10 bg-gradient-to-br from-orange-50 to-amber-50 border-orange-200/60 shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <div className="flex items-center space-x-3 mb-8">
-                <div className="w-12 h-12 bg-orange-600 rounded-xl flex items-center justify-center text-white text-xl shadow-md">
-                  📖
-                </div>
+              <div className="mb-8">
                 <h2 className="text-3xl sm:text-4xl font-bold text-orange-800">{t.tamarindo.historia.title}</h2>
               </div>
 
@@ -79,10 +75,7 @@ export default function TamarindoInterface({ language }: TamarindoInterfaceProps
 
             <div className="space-y-8">
               <Card className="p-6 sm:p-8 bg-white/80 backdrop-blur-sm border-orange-100 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-[1.02]">
-                <div className="flex items-center space-x-3 mb-6">
-                  <div className="w-10 h-10 bg-amber-500 rounded-lg flex items-center justify-center text-white text-lg shadow-sm">
-                    ✨
-                  </div>
+                <div className="mb-6">
                   <h3 className="text-xl sm:text-2xl font-semibold text-orange-800">
                     {t.tamarindo.historia.curiosFacts}
                   </h3>
@@ -101,10 +94,7 @@ export default function TamarindoInterface({ language }: TamarindoInterfaceProps
               </Card>
 
               <Card className="p-6 sm:p-8 bg-gradient-to-r from-red-50 via-orange-50 to-yellow-50 border-orange-100 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-[1.02]">
-                <div className="flex items-center space-x-3 mb-6">
-                  <div className="w-10 h-10 bg-gradient-to-r from-red-500 to-yellow-500 rounded-lg flex items-center justify-center text-white text-lg shadow-sm">
-                    🔗
-                  </div>
+                <div className="mb-6">
                   <h3 className="text-xl sm:text-2xl font-semibold text-orange-800">
                     {t.tamarindo.historia.connection}
                   </h3>
@@ -121,10 +111,7 @@ export default function TamarindoInterface({ language }: TamarindoInterfaceProps
         {activeSection === "beneficios" && (
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-16">
             <Card className="p-8 sm:p-10 bg-gradient-to-br from-green-50 to-orange-50 border-green-200/60 shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <div className="flex items-center space-x-3 mb-8">
-                <div className="w-12 h-12 bg-green-600 rounded-xl flex items-center justify-center text-white text-xl shadow-md">
-                  💚
-                </div>
+              <div className="mb-8">
                 <h2 className="text-3xl sm:text-4xl font-bold text-orange-800">{t.common.benefits.title}</h2>
               </div>
 
@@ -132,11 +119,8 @@ export default function TamarindoInterface({ language }: TamarindoInterfaceProps
                 {t.tamarindo.beneficios.benefits.map((benefit, index) => (
                   <div
                     key={index}
-                    className="flex items-start space-x-4 p-4 bg-white/60 rounded-xl border border-green-100 hover:bg-white/80 transition-colors duration-200"
+                    className="p-4 bg-white/60 rounded-xl border border-green-100 hover:bg-white/80 transition-colors duration-200"
                   >
-                    <div className="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center text-white text-sm font-bold flex-shrink-0">
-                      ✓
-                    </div>
                     <div>
                       <h4 className="font-semibold text-orange-800 text-base sm:text-lg mb-2">{benefit.title}</h4>
                       <p className="text-sm sm:text-base text-orange-700 leading-relaxed">{benefit.description}</p>
@@ -147,10 +131,7 @@ export default function TamarindoInterface({ language }: TamarindoInterfaceProps
             </Card>
 
             <Card className="p-8 sm:p-10 bg-white/90 backdrop-blur-sm border-orange-100 shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <div className="flex items-center space-x-3 mb-8">
-                <div className="w-12 h-12 bg-orange-600 rounded-xl flex items-center justify-center text-white text-xl shadow-md">
-                  📊
-                </div>
+              <div className="mb-8">
                 <h2 className="text-3xl sm:text-4xl font-bold text-orange-800">{t.common.benefits.nutritionalValue}</h2>
               </div>
 

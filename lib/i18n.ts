@@ -25,21 +25,19 @@ export const translations = {
       heroDescription:
         "El sabor agridulce que conquistó paladares mexicanos durante siglos. Una bebida que combina tradición, sabor y propiedades medicinales únicas.",
       historia: {
-        title: "Orígenes Ancestrales",
+        title: "Historia",
         content: [
-          "El tamarindo llegó a México en el siglo XVI, traído por los españoles desde África. Sin embargo, fue en tierras mexicanas donde encontró su verdadero hogar, adaptándose perfectamente al clima tropical.",
-          "Los pueblos indígenas rápidamente adoptaron esta fruta exótica, incorporándola en sus remedios tradicionales y bebidas ceremoniales. Su sabor único, entre dulce y ácido, conquistó paladares de todas las edades.",
-          "Hoy en día, el agua de tamarindo es una de las bebidas más queridas en México, presente en mercados, fondas y hogares de todo el país.",
+          "Déjate envolver por la esencia de nuestra tierra con Soda Fresh® Tamarindo. Cada gota de esta bebida captura el sabor auténtico del tamarindo, una fruta que ha sido parte de la tradición guatemalteca por generaciones. Inspirada en la rica cultura de los tejidos y el arte local, nuestra bebida es un tributo a las manos que con destreza y pasión tejen cada historia.",
+          "El diseño de nuestro empaque refleja la belleza de los textiles tradicionales de Guatemala, con patrones que evocan los huipiles y las figuras que honran nuestra herencia. No es solo una bebida, es una experiencia que celebra lo natural y lo artesanal.",
         ],
         curiosFacts: "Datos Curiosos",
         facts: [
-          "El tamarindo puede vivir hasta 200 años",
-          'Su nombre proviene del árabe "tamr hindi" (dátil de la India)',
-          "México es el segundo productor mundial de tamarindo",
+          "El tamarindo es una fruta que crece en una vaina y la pulpa es la parte que se utiliza para hacer la bebida.",
+          "Su sabor cambia dependiendo de la madurez: la pulpa de la fruta más madura es más dulce, mientras que la menos madura es más ácida.",
         ],
-        connection: "Conexión con Otros Sabores",
+        connection: "Conexiones",
         connectionText:
-          "En la tradición mexicana, el tamarindo se combina perfectamente con jamaica para crear bebidas refrescantes, y con limón para intensificar su acidez natural.",
+          "El tamarindo se mezcla muy bien con otras frutas, como el mango, la piña y la guayaba, creando bebidas y postres con capas de sabor complejas y vibrantes.",
       },
       beneficios: {
         benefits: [
@@ -72,21 +70,19 @@ export const translations = {
       heroDescription:
         "La flor de hibisco que da color y vida a las celebraciones mexicanas. Una bebida ceremonial rica en antioxidantes y tradición ancestral.",
       historia: {
-        title: "La Flor Sagrada",
+        title: "Historia",
         content: [
-          "La jamaica, conocida científicamente como Hibiscus sabdariffa, llegó a México desde África y se convirtió en parte fundamental de la cultura gastronómica nacional.",
-          "En las culturas prehispánicas, las flores rojas eran consideradas sagradas y se utilizaban en ceremonias religiosas. La jamaica heredó este simbolismo, convirtiéndose en la bebida de las celebraciones.",
-          "Su color rojo intenso no solo es hermoso, sino que representa la vitalidad y la pasión del pueblo mexicano, presente en fiestas, bodas y celebraciones familiares.",
+          "Déjate seducir por el sabor de Soda Fresh® Jamaica, una bebida que captura la esencia de las flores de hibisco que han florecido en nuestra tierra por generaciones. Cada sorbo es un viaje a lo natural y a lo artesanal, un tributo a la rica herencia cultural de Guatemala que se entrelaza en cada detalle de nuestro diseño.",
+          "El empaque de Soda Fresh® Jamaica rinde homenaje a la técnica del telar de cintura, un arte ancestral de las comunidades mayas. Las figuras y patrones geométricos en el fondo evocan los huipiles, prendas tradicionales que son un lenguaje visual de la identidad y la historia de nuestros pueblos.",
         ],
         curiosFacts: "Datos Curiosos",
         facts: [
-          "Se cultiva principalmente en Guerrero y Oaxaca",
-          "Una flor puede producir hasta 200 semillas",
-          "Es conocida como 'té rojo' en muchos países",
+          "Lo que utilizamos para la bebida no son los pétalos de la flor en sí, sino los cálices, que son las partes carnosas y rojas que sostienen la base de la flor. Estos cálices se cosechan después de que los pétalos caen.",
+          "La flor de Jamaica es originaria de África oriental. Fue traída al continente americano durante la época colonial, probablemente por los esclavos, y se adaptó maravillosamente al clima tropical.",
         ],
-        connection: "Conexión con Otros Sabores",
+        connection: "Conexiones",
         connectionText:
-          "La jamaica se complementa perfectamente con tamarindo para crear aguas frescas complejas, y con limón para realzar su acidez natural.",
+          "La infusión de jamaica es muy utilizada para preparar aguas frescas, pero también es la base de muchos cocteles. Su color intenso y sabor único la hacen ideal para mezclar con ron, vodka o incluso para crear alternativas sin alcohol.",
       },
       beneficios: {
         benefits: [
@@ -184,21 +180,19 @@ export const translations = {
       heroDescription:
         "The sweet and sour flavor that conquered Mexican palates for centuries. A drink that combines tradition, flavor and unique medicinal properties.",
       historia: {
-        title: "Ancestral Origins",
+        title: "History",
         content: [
-          "Tamarind arrived in Mexico in the 16th century, brought by the Spanish from Africa. However, it was in Mexican lands where it found its true home, adapting perfectly to the tropical climate.",
-          "Indigenous peoples quickly adopted this exotic fruit, incorporating it into their traditional remedies and ceremonial drinks. Its unique flavor, between sweet and sour, conquered palates of all ages.",
-          "Today, tamarind water is one of the most beloved drinks in Mexico, present in markets, fondas and homes throughout the country.",
+          "Let yourself be enveloped by the essence of our land with Soda Fresh® Tamarind. Each drop of this beverage captures the authentic flavor of tamarind, a fruit that has been part of Guatemalan tradition for generations. Inspired by the rich culture of textiles and local art, our beverage is a tribute to the hands that skillfully and passionately weave each story.",
+          "The design of our packaging reflects the beauty of Guatemala's traditional textiles, with patterns that evoke huipiles and figures that honor our heritage. It's not just a beverage, it's an experience that celebrates the natural and artisanal.",
         ],
         curiosFacts: "Curious Facts",
         facts: [
-          "Tamarind can live up to 200 years",
-          'Its name comes from Arabic "tamr hindi" (date from India)',
-          "Mexico is the second largest tamarind producer in the world",
+          "Tamarind is a fruit that grows in a pod and the pulp is the part used to make the beverage.",
+          "Its flavor changes depending on ripeness: the pulp of riper fruit is sweeter, while less ripe fruit is more acidic.",
         ],
-        connection: "Connection with Other Flavors",
+        connection: "Connections",
         connectionText:
-          "In Mexican tradition, tamarind combines perfectly with hibiscus to create refreshing drinks, and with lime to intensify its natural acidity.",
+          "Tamarind blends very well with other fruits, such as mango, pineapple and guava, creating beverages and desserts with complex and vibrant flavor layers.",
       },
       beneficios: {
         benefits: [
@@ -231,21 +225,19 @@ export const translations = {
       heroDescription:
         "The hibiscus flower that gives color and life to Mexican celebrations. A ceremonial drink rich in antioxidants and ancestral tradition.",
       historia: {
-        title: "The Sacred Flower",
+        title: "History",
         content: [
-          "Hibiscus, scientifically known as Hibiscus sabdariffa, arrived in Mexico from Africa and became a fundamental part of the national gastronomic culture.",
-          "In pre-Hispanic cultures, red flowers were considered sacred and used in religious ceremonies. Hibiscus inherited this symbolism, becoming the drink of celebrations.",
-          "Its intense red color is not only beautiful, but represents the vitality and passion of the Mexican people, present at parties, weddings and family celebrations.",
+          "Let yourself be seduced by the flavor of Soda Fresh® Jamaica, a beverage that captures the essence of hibiscus flowers that have bloomed in our land for generations. Each sip is a journey to the natural and artisanal, a tribute to the rich cultural heritage of Guatemala that is woven into every detail of our design.",
+          "The packaging of Soda Fresh® Jamaica pays homage to the backstrap loom technique, an ancestral art of Mayan communities. The geometric figures and patterns in the background evoke huipiles, traditional garments that are a visual language of the identity and history of our peoples.",
         ],
         curiosFacts: "Curious Facts",
         facts: [
-          "It is mainly cultivated in Guerrero and Oaxaca",
-          "One flower can produce up to 200 seeds",
-          "It is known as 'red tea' in many countries",
+          "What we use for the beverage are not the flower petals themselves, but the calyces, which are the fleshy, red parts that support the base of the flower. These calyces are harvested after the petals fall.",
+          "The Jamaica flower is native to eastern Africa. It was brought to the American continent during colonial times, probably by slaves, and adapted wonderfully to the tropical climate.",
         ],
-        connection: "Connection with Other Flavors",
+        connection: "Connections",
         connectionText:
-          "Hibiscus complements perfectly with tamarind to create complex fresh waters, and with lime to enhance its natural acidity.",
+          "Jamaica infusion is widely used to prepare fresh waters, but it is also the base for many cocktails. Its intense color and unique flavor make it ideal for mixing with rum, vodka or even for creating non-alcoholic alternatives.",
       },
       beneficios: {
         benefits: [

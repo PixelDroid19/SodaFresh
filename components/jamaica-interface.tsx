@@ -95,14 +95,9 @@ export default function JamaicaInterface({ language }: JamaicaInterfaceProps) {
               <h2 className="text-3xl font-bold text-red-800 mb-6">{t.common.benefits.title}</h2>
               <div className="space-y-4">
                 {t.jamaica.beneficios.benefits.map((benefit, index) => (
-                  <div key={index} className="flex items-start space-x-3">
-                    <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center text-white text-xs font-bold">
-                      ✓
-                    </div>
-                    <div>
-                      <h4 className="font-semibold text-red-800">{benefit.title}</h4>
-                      <p className="text-sm text-red-700">{benefit.description}</p>
-                    </div>
+                  <div key={index} className="mb-4">
+                    <h4 className="font-semibold text-red-800">{benefit.title}</h4>
+                    <p className="text-sm text-red-700">{benefit.description}</p>
                   </div>
                 ))}
               </div>
