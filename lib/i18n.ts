@@ -268,21 +268,19 @@ export const translations = {
       heroDescription:
         "The explosion of freshness that defines Mexican summer. A revitalizing drink loaded with vitamin C and natural energy.",
       historia: {
-        title: "The Citrus of the New World",
+        title: "History",
         content: [
-          "Lime arrived in Mexico with the Spanish conquistadors in the 16th century, but it was in Mexican lands where it found its most refreshing expression in the form of limeade.",
-          "Street vendors of fresh waters perfected the art of Mexican limeade, creating the perfect formula that balances acidity, sweetness and freshness.",
-          "Today it is the quintessential drink of Mexican summer, present on every corner, market and home, offering immediate relief from tropical heat.",
+          "Let yourself be refreshed by the pure essence of Guatemala with Soda Fresh® Limeade. Each drop is a tribute to the fresh and natural flavor of lime, an ingredient that evokes the tradition of fresh waters prepared at home. It's a simple flavor, but full of history, that brings the warmth of the Guatemalan sun to the table.",
+          "The packaging design is a tribute to the cultural richness of our country. The geometric patterns in the background are inspired by huipiles and the figures created on the backstrap loom, an artisanal technique that has been passed down from generation to generation.",
         ],
         curiosFacts: "Curious Facts",
         facts: [
-          "Mexico produces more than 2 million tons of lime per year",
-          "Mexican lime is smaller but more aromatic",
-          "More limeade is consumed in Mexico than in any other country",
+          "Limeade is one of the most popular 'fresh waters' in Guatemala and throughout the region. It is prepared artisanally and other ingredients such as ginger, mint or even chia are often added to give it an extra touch of flavor and properties.",
+          "Lime is known for being an excellent source of vitamin C, a natural antioxidant that helps strengthen the immune system.",
         ],
-        connection: "Connection with Other Flavors",
+        connection: "Connections",
         connectionText:
-          "Limeade enhances the flavor of tamarind and balances the intensity of hibiscus, creating unique refreshing combinations.",
+          "Infusing limeade with mint, basil or ginger gives it a refreshing and aromatic twist. Ginger, in particular, adds a spicy touch that contrasts deliciously with the acidity of lime.",
       },
       beneficios: {
         benefits: [
