@@ -66,7 +66,7 @@ export const BeverageCard = ({
       </h3>
 
       <div className=" mb-6 overflow-hidden">
-        <div className={`opacity-0 group-hover:opacity-100 text-sm ${teaserColor} italic transition-all duration-500 transform translate-y-3 group-hover:translate-y-0`}>
+        <div className={`sm:opacity-0 sm:group-hover:opacity-100 text-sm ${teaserColor} italic transition-all duration-500 transform sm:translate-y-3 sm:group-hover:translate-y-0`}>
           {beverage.teaser}
         </div>
       </div>
