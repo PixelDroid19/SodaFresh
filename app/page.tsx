@@ -1,12 +1,13 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import TamarindoInterface from "@/components/tamarindo-interface";
 import JamaicaInterface from "@/components/jamaica-interface";
 import LimonadaInterface from "@/components/limonada-interface";
 import { BeverageCard } from "@/components/beverage-card";
 import { useTranslation, type Language } from "@/lib/i18n";
+import { useAppStore } from "@/lib/store";
 import ReactMarkdown from "react-markdown";
 import TamarindPng from "../asserts/img/tamarindo.png";
 import JamaicaPng from "../asserts/img/jamaica.png";
@@ -14,15 +15,27 @@ import LimonadaPng from "../asserts/img/limonada.png";
 import Logo from "../asserts/img/logo.png";
 
 export default function HomePage() {
-  const [selectedBeverage, setSelectedBeverage] = useState<string | null>(null);
-  const [language, setLanguage] = useState<Language>("es");
+  const { 
+    language, 
+    setLanguage, 
+    selectedBeverage, 
+    setSelectedBeverage, 
+    goToHome,
+    initializeLanguage 
+  } = useAppStore();
+  
   const t = useTranslation(language);
+  
+  // Inicializar idioma del sistema en el primer render
+  useEffect(() => {
+    initializeLanguage();
+  }, [initializeLanguage]);
 
   if (selectedBeverage) {
     return (
       <div className="min-h-screen">
         <Button
-          onClick={() => setSelectedBeverage(null)}
+          onClick={goToHome}
           className="fixed top-6 left-6 z-50 bg-white/95 backdrop-blur-sm text-foreground hover:bg-white border border-border shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 focus:ring-2 focus:ring-offset-2 focus:ring-slate-500"
           aria-label={t.back}
         >
@@ -43,13 +56,13 @@ export default function HomePage() {
         </Button>
 
         {selectedBeverage === "tamarindo" && (
-          <TamarindoInterface language={language} />
+          <TamarindoInterface />
         )}
         {selectedBeverage === "jamaica" && (
-          <JamaicaInterface language={language} />
+          <JamaicaInterface />
         )}
         {selectedBeverage === "limonada" && (
-          <LimonadaInterface language={language} />
+          <LimonadaInterface />
         )}
       </div>
     );

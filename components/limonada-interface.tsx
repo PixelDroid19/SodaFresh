@@ -2,15 +2,13 @@
 
 import { useState } from "react"
 import { Card } from "@/components/ui/card"
-import { useTranslation, type Language } from "@/lib/i18n"
-import LimonadaPng from "../asserts/limonada/limonada.png"
+import { useTranslation } from "@/lib/i18n"
+import { useAppStore } from "@/lib/store"
+import LimonadaPng from "../asserts/limonada/limonada.jpg"
 
-interface LimonadaInterfaceProps {
-  language: Language
-}
-
-export default function LimonadaInterface({ language }: LimonadaInterfaceProps) {
+export default function LimonadaInterface() {
   const [activeSection, setActiveSection] = useState("historia")
+  const { language } = useAppStore()
   const t = useTranslation(language)
 
   return (

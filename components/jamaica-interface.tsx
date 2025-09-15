@@ -2,15 +2,13 @@
 
 import { useState } from "react"
 import { Card } from "@/components/ui/card"
-import { useTranslation, type Language } from "@/lib/i18n"
-import JamaicaPng from "../asserts/jamaica/jamaica.png"
+import { useTranslation } from "@/lib/i18n"
+import { useAppStore } from "@/lib/store"
+import JamaicaPng from "../asserts/jamaica/jamaica.jpg"
 
-interface JamaicaInterfaceProps {
-  language: Language
-}
-
-export default function JamaicaInterface({ language }: JamaicaInterfaceProps) {
+export default function JamaicaInterface() {
   const [activeSection, setActiveSection] = useState("historia")
+  const { language } = useAppStore()
   const t = useTranslation(language)
 
   return (

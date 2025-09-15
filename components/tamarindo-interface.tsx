@@ -2,15 +2,13 @@
 
 import { useState } from "react"
 import { Card } from "@/components/ui/card"
-import { useTranslation, type Language } from "@/lib/i18n"
-import TamarindoPng from "../asserts/tamarindo/tamarindo.png"
+import { useTranslation } from "@/lib/i18n"
+import { useAppStore } from "@/lib/store"
+import TamarindoPng from "../asserts/tamarindo/tamarindo.jpg"
 
-interface TamarindoInterfaceProps {
-  language: Language
-}
-
-export default function TamarindoInterface({ language }: TamarindoInterfaceProps) {
+export default function TamarindoInterface() {
   const [activeSection, setActiveSection] = useState("historia")
+  const { language } = useAppStore()
   const t = useTranslation(language)
 
   return (
