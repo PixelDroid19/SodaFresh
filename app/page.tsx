@@ -131,6 +131,7 @@ export default function HomePage() {
               teaserColor="text-[#2c1a1c]"
               hoverOverlayFrom="from-pink-400/10"
               hoverOverlayTo="to-pink-500/15"
+              imageScale={1.3}
               onClick={() => setSelectedBeverage("tamarindo")}
             />
 
@@ -145,6 +146,7 @@ export default function HomePage() {
               teaserColor="text-[#89255b]"
               hoverOverlayFrom="from-purple-400/10"
               hoverOverlayTo="to-purple-500/15"
+              imageScale={1.3}
               onClick={() => setSelectedBeverage("jamaica")}
             />
 
@@ -160,6 +162,7 @@ export default function HomePage() {
               hoverOverlayFrom="from-pink-500/8"
               hoverOverlayTo="to-pink-600/12"
               additionalClasses="sm:col-span-2 lg:col-span-1"
+              imageScale={1.3}
               onClick={() => setSelectedBeverage("limonada")}
             />
           </div>

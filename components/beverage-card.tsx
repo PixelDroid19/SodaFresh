@@ -16,6 +16,8 @@ interface BeverageCardProps {
   hoverOverlayFrom: string;
   hoverOverlayTo: string;
   additionalClasses?: string;
+  // Factor de escala para agrandar/encoger la imagen desde el padre
+  imageScale?: number;
   onClick: () => void;
 }
 
@@ -31,6 +33,7 @@ export const BeverageCard = ({
   hoverOverlayFrom,
   hoverOverlayTo,
   additionalClasses = "",
+  imageScale = 1,
   onClick
 }: BeverageCardProps) => (
   <Card
@@ -57,7 +60,8 @@ export const BeverageCard = ({
         <img
           src={image?.src}
           alt={beverageKey}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-contain transition-transform duration-500"
+          style={{ transform: `scale(${imageScale})` }}
         />
       </div>
 
